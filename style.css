@@ -1,7 +1,7 @@
 * {
-    
-    border: 3px dashed blue;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+
 }
 body{
     
@@ -9,6 +9,19 @@ body{
         height: 100vh; /* Garante que o fundo ocupe toda a tela */
         margin: 0;
     
+    
+}
+.vertical-line {
+    position: fixed; /* Para garantir que a linha permaneça fixa na tela */
+    top: 0;           /* Alinha a linha ao topo da tela */
+    left: 41%;         /* Coloca a linha no centro da tela (ajuste se necessário) */
+    width: 3px;        /* Largura da linha */
+    height: 100vh;     /* Faz a linha ocupar toda a altura da tela */
+    background-color: #ffffff40; /* Cor da linha */
+}
+.nome {
+    margin: 0px 200px 0px 0px;
+    width: 125%;
     
 }
 h2{
@@ -21,21 +34,89 @@ p{
     color: aliceblue;
 }
 a {
-    color: bisque;
+    color: rgb(106, 127, 199);
+    background-color:#ffffff22;
 }
 .ale-info {
-    margin: 0px 75rem 20px 0px;
+    margin: 0px 69rem 20px 20px; 
     display: flex;
-    border: 3px dashed blue;
+   position: relative;
+   right: 11px;
+   top: .5rem;
     justify-content: space-evenly;
+    
 }
 .ale-foto {
-    width: 20rem;
-    border: 3px dashed rgb(255, 85, 0);
+   
+    width: 30%;
+    height: 40%;
+    border: 3px radial-gradient(circle, #ff0000, #2b2b2b, #000000);;
+    border-radius: 25%;
+    box-shadow: 12px 0px 20px 1px rgba(255, 255, 255, 0.189);
+    position: relative;
+top: 35px;
+
     
 }
 input {
-    all: unset; /* Remove todas as estilizações padrão */
-    width: 100%; /* Ajusta o tamanho conforme necessário */
-    font-size: 16px; /* Mantém um tamanho legível */
+   font-style: none;
+   border: none;
+   background-color:#ffffff22;
+   color: rgb(106, 127, 199);
+}
+.hab {
+    list-style: circle;
+    
+    margin: 2px 97rem 0px 0rem;
+}
+.experiencia {
+    margin: 20px 69rem 20px 20px;
+   position: relative;
+   top: -3px;
+   right: 20px;
+    
+    
+}
+.empresas {
+    color: aliceblue;
+    position: relative;
+    top:-7px;
+}
+.educacao {
+    margin: 20px 69rem 20px 20px;
+    position: relative;
+    top: -3px;
+    right: 20px;
+     
+     
+}
+.escolas {
+    color: aliceblue;
+    position: relative;
+    top:-7px;
+}
+hr{
+ position: relative;
+ left:-59%;   
+ color: rgba(240, 248, 255, 0.322);
+}
+
+.projetos {
+   position: relative;
+   right: -500px;
+}
+
+.fotos-projetos {
+    position: relative;
+    right: 200px;
+    width: 500px;
+    height: auto;
+    right: 20px;
+    top: 10px;
+}
+.titulop {
+    position: relative;
+    right: -160px;
+    width: 30%;
+    
 }
